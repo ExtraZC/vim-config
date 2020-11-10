@@ -17,6 +17,9 @@ set undofile		      " 保留撤销历史
 " set backupdir=~/.vim/.backup//
 " set directory=~/.vim/.swp//
 set undodir=~/.vim/.undo//
+set hlsearch                  " 高亮颜色设置
+hi Search ctermbg=LightYellow
+hi Search ctermfg=Red
 syntax on                     " 语法高亮
 filetype indent on            " 开启文件类型检查, 并且载入与该类型对应的缩进规则
 filetype off                  " 必须要添加
